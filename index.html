@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="باوقيد للطباعة والتصميم والخدمات">
+  <title>باوقيد | للطباعة والتصميم والخدمات</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home"><span class="brand-mark">ب</span><span>باوقيد<small>للطباعة والتصميم والخدمات</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">☰</button>
+    <nav id="mainNav">
+      <a href="#printing">الطباعة</a><a href="#design">التصميم</a><a href="#services">الخدمات</a>
+      <a href="#gifts">الهدايا</a><a href="#contact">تواصل معنا</a>
+    </nav>
+    <a class="header-whatsapp" target="_blank" rel="noopener" href="https://wa.me/967779563062">واتساب</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="eyebrow">إبداع • جودة • تنفيذ حسب الطلب</span>
+        <h1>أفكارك تستحق<br><em>طباعة وتصميم يليق بها</em></h1>
+        <p>في باوقيد نوفر لك خدمات الطباعة والتصميم والهدايا والمنتجات المخصصة، بكل سهولة ومن مكانك.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#products">تصفح المنتجات</a>
+          <a class="btn light" target="_blank" rel="noopener" href="https://wa.me/967779563062">اطلب عبر واتساب</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="art-card art-main"><span>BAOUQEED</span><strong>اطبع فكرتك<br>بأسلوبك</strong><small>PRINT · DESIGN · GIFTS</small></div>
+        <div class="art-card art-small">✦ جودة<br>تستحقها</div>
+      </div>
+    </section>
+
+    <section class="section categories">
+      <div class="section-heading"><span class="eyebrow">اكتشف خدماتنا</span><h2>أقسام متجر باوقيد</h2><p>اختر القسم المناسب لطلبك</p></div>
+      <div class="category-grid">
+        <a class="category-card" href="#printing"><span>▧</span><b>الطباعة</b><small>أكواب، ملابس، كروت وملصقات</small></a>
+        <a class="category-card" href="#design"><span>✎</span><b>التصميم</b><small>شعارات، هويات، دعوات وسير ذاتية</small></a>
+        <a class="category-card" href="#services"><span>◇</span><b>الخدمات</b><small>توفير منتجات وأكياس حسب الطلب</small></a>
+        <a class="category-card" href="#gifts"><span>♧</span><b>الهدايا</b><small>هدايا مخصصة للمناسبات</small></a>
+      </div>
+    </section>
+
+    <section class="section products-section" id="products">
+      <div class="section-heading"><span class="eyebrow">مختارات باوقيد</span><h2>منتجات وخدمات المتجر</h2><p>اطلب المنتج المناسب، ويمكننا تنفيذه حسب رغبتك.</p></div>
+      <div class="filter-bar" id="filters">
+        <button class="filter active" data-filter="all">الكل</button>
+        <button class="filter" data-filter="printing">الطباعة</button>
+        <button class="filter" data-filter="design">التصميم</button>
+        <button class="filter" data-filter="services">الخدمات</button>
+        <button class="filter" data-filter="gifts">الهدايا</button>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+      <p class="empty-state" id="emptyState" hidden>لا توجد منتجات في هذا القسم حاليًا.</p>
+    </section>
+
+    <section class="section detail-sections">
+      <article class="detail-panel" id="printing"><div><span class="eyebrow">القسم الأول</span><h2>خدمات الطباعة</h2><p>نطبع أفكارك على منتجات متنوعة بجودة واهتمام بالتفاصيل.</p><ul><li>طباعة الأكواب والملابس</li><li>ملصقات المنتجات والاستيكرات</li><li>كروت العمل وكروت التوزيعات</li><li>طباعة حسب الطلب</li></ul></div><div class="panel-symbol">▧</div></article>
+      <article class="detail-panel reverse" id="design"><div><span class="eyebrow">القسم الثاني</span><h2>خدمات التصميم</h2><p>تصاميم مرتبة تعكس هوية مشروعك وتوصل فكرتك.</p><ul><li>تصميم المنتجات والملصقات</li><li>السير الذاتية (CV)</li><li>الشعارات والهويات البصرية</li><li>دعوات المناسبات والتصميم حسب الطلب</li></ul></div><div class="panel-symbol">✎</div></article>
+      <article class="detail-panel" id="services"><div><span class="eyebrow">القسم الثالث</span><h2>الخدمات وتوفير المنتجات</h2><p>نساعدك في توفير احتياجاتك من المنتجات الخارجية وتنفيذ الطلبات الخاصة.</p><ul><li>توفير منتجات خارجية للبيع</li><li>أكياس بلاستيكية حسب الطلب</li><li>أكياس قماشية حسب الطلب</li><li>تجهيز طلبات المحلات والتجار</li></ul></div><div class="panel-symbol">◇</div></article>
+      <article class="detail-panel reverse" id="gifts"><div><span class="eyebrow">القسم الرابع</span><h2>الهدايا والتوزيعات</h2><p>هدايا تحمل اسمك أو صورتك أو شعارك، ومناسبة لمختلف المناسبات.</p><ul><li>هدايا شخصية</li><li>أكواب وهدايا مطبوعة</li><li>توزيعات المناسبات</li><li>تنفيذ حسب الطلب</li></ul></div><div class="panel-symbol">♧</div></article>
+    </section>
+
+    <section class="cta" id="contact">
+      <span class="eyebrow">نحن بانتظار طلبك</span><h2>عندك فكرة؟ خلّينا ننفذها معك</h2>
+      <p>تواصل معنا وأرسل تفاصيل طلبك أو التصميم الذي ترغب به.</p>
+      <a class="btn primary" target="_blank" rel="noopener" href="https://wa.me/967779563062">تواصل عبر واتساب 779563062</a>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">ب</span><span>باوقيد<small>للطباعة والتصميم والخدمات</small></span></a><p>© <span id="year"></span> باوقيد. جميع الحقوق محفوظة.</p></footer>
+
+  <button class="cart-fab" id="cartOpen" aria-label="فتح السلة">🛒 <span id="cartCount">0</span></button>
+  <a class="wa-fab" href="https://wa.me/967779563062" target="_blank" rel="noopener" aria-label="واتساب">واتساب</a>
+
+  <div class="cart-overlay" id="cartOverlay">
+    <aside class="cart-drawer">
+      <div class="cart-head"><h3>سلة الطلبات</h3><button id="cartClose" class="icon-btn">✕</button></div>
+      <div id="cartItems" class="cart-items"></div>
+      <div class="cart-bottom"><div class="total-line"><span>الإجمالي التقديري</span><b id="cartTotal">0 ر.ي</b></div><button id="checkout" class="btn primary full">إرسال الطلب عبر واتساب</button></div>
+    </aside>
+  </div>
+
+  <div class="admin-overlay" id="adminOverlay">
+    <div class="admin-modal">
+      <button class="icon-btn modal-close" id="adminClose">✕</button>
+      <h2>إدارة منتجات المتجر</h2>
+      <p class="muted">لوحة تجريبية على هذا الجهاز. كلمة المرور الافتراضية: <b>770088</b></p>
+      <div id="loginArea"><label>كلمة مرور المدير<input type="password" id="adminPassword" placeholder="أدخل كلمة المرور"></label><button class="btn primary full" id="loginBtn">دخول</button><p class="error" id="loginError"></p></div>
+      <form id="productForm" hidden>
+        <label>اسم المنتج<input id="pName" required maxlength="70" placeholder="مثال: طباعة كوب"></label>
+        <label>القسم<select id="pCategory"><option value="printing">الطباعة</option><option value="design">التصميم</option><option value="services">الخدمات</option><option value="gifts">الهدايا</option></select></label>
+        <label>السعر بالريال اليمني<input id="pPrice" type="number" min="0" required placeholder="مثال: 4000"></label>
+        <label>رابط صورة المنتج<input id="pImage" type="url" placeholder="https://..."></label>
+        <label>أو اختر صورة من جهازك<input id="pFile" type="file" accept="image/*"></label>
+        <label>وصف مختصر<textarea id="pDescription" rows="2" placeholder="اكتب تفاصيل المنتج"></textarea></label>
+        <button class="btn primary full" type="submit">إضافة المنتج</button>
+        <p class="muted small">يمكنك حذف المنتجات من بطاقتها بعد تسجيل الدخول.</p>
+      </form>
+    </div>
+  </div>
+
+  <button class="admin-trigger" id="adminOpen" title="إدارة المتجر">⚙ إدارة المتجر</button>
+  <script src="script.js"></script>
+</body>
+</html>
